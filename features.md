@@ -5,9 +5,13 @@ title: Funcionalidades do FlyCash
 # Funcionalidades do FlyCash
 
 ## 📂 Organização por Grupos e Categorias
+
+<img src="./assets/grupos-e-subcategorias.png" width="300px" />
+
 O FlyCash oferece uma maneira inteligente e flexível de organizar suas finanças, permitindo que você visualize claramente a origem e o destino do seu dinheiro.
 
 ### **O que são Grupos?**
+
 Grupos são grandes divisões que representam as **fontes de entrada e saída de dinheiro**. Isso ajuda a categorizar seus registros de forma geral. Exemplos de Grupos:
 - **Gastos**: Todas as despesas, como contas e compras.
 - **Receitas**: Entradas de dinheiro, como salário e rendas extras.

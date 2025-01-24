@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'Documentação oficial do FlyCash, seu gerenciador financeiro.',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
+    logo: './assets/logo.png',
     search: {
       provider: 'local',
     },
@@ -38,6 +38,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fly-cash/docs' },
       { icon: 'discord', link: 'https://discord.gg/VuQBBNhYXK' },
+      { icon: 'x', link: 'https://x.com/FlyCa_sh' },
     ],
     footer: {
       message: 'Feito com ❤️ pela equipe FlyCash.',
