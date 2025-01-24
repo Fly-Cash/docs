@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'Documentação oficial do FlyCash, seu gerenciador financeiro.',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: './assets/logo.png',
+    logo: '/logo.png',
     search: {
       provider: 'local',
     },

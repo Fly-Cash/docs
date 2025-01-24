@@ -6,7 +6,7 @@ title: Funcionalidades do FlyCash
 
 ## 📂 Organização por Grupos e Categorias
 
-<img src="./assets/grupos-e-subcategorias.png" width="300px" />
+<img src="./assets/grupos-e-subcategorias.png" width="600px" />
 
 O FlyCash oferece uma maneira inteligente e flexível de organizar suas finanças, permitindo que você visualize claramente a origem e o destino do seu dinheiro.
 
@@ -26,20 +26,97 @@ Grupos ajudam você a responder perguntas como:
 ### **O que são Categorias?**
 Categorias são subdivisões dentro de um grupo. Elas permitem detalhar melhor suas transações. Por exemplo:
 
-- Grupo: **Gastos**
-  - Categoria: Casa
-  - Categoria: Transporte
-  - Categoria: Lazer
+<div style="display: flex; gap: 10px;">
+  <ul style="width: 300px">
+    <li>Grupo: <b>Gastos</b></li>
+    <li>Categoria: <b>Casa</b></li>
+    <ul>
+      <li>Subcategoria: <b>Luz</b>, <b>Água</b>, <b>Internet</b></li>
+    </ul>
+    <li>Categoria: <b>Transporte</b></li>
+    <li>Categoria: <b>Lazer</b></li>
+    <li>Categoria: <b>Receitas</b></li>
+  </ul>
+  <table>
+    <tr>
+      <th>Grupo</th>
+      <th>Categoria</th>
+      <th>Subcategoria</th>
+    </tr>
+    <tr>
+      <td rowspan="5">Gastos</td>
+      <td rowspan="3">Casa</td>
+      <td>Luz</td>
+    </tr>
+    <tr>
+      <td>Água</td>
+    </tr>
+    <tr>
+      <td>Internet</td>
+    </tr>
+    <tr>
+      <td colspan="2">Transporte</td>
+    </tr>
+    <tr>
+      <td colspan="2">Lazer</td>
+    </tr>
+  </table>
+</div>
 
-- Grupo: **Receitas**
-  - Categoria: Salário
-  - Categoria: Freelance
-  - Categoria: Rendimentos de aluguel
+<div style="display: flex; gap: 10px;">
+  <ul style="width: 300px">
+    <li>Grupo: <b>Receitas</b></li>
+    <li>Categoria: <b>Salário</b></li>
+    <ul>
+      <li>Subcategoria: <b>1a quinzena</b>, <b>2a quinzena</b>, <b>Freelance</b>, <b>Rendimentos de aluguel</b></li>
+    </ul>
+    <li>Categoria: <b>Investimentos</b></li>
+  </ul>
+  <table>
+    <tr>
+      <th>Grupo</th>
+      <th>Categoria</th>
+      <th>Subcategoria</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Receitas</td>
+      <td rowspan="2">Salário</td>
+      <td>1a quinzena</td>
+    </tr>
+    <tr>
+      <td >2a quinzena</td>
+    </tr>
+    <tr>
+      <td>Frelance</td>
+      <td>Rendimentos de aluguel</td>
+    </tr>
+  </table>
+</div>
 
-- Grupo: **Investimentos**
-  - Categoria: Ações
-  - Categoria: Poupança
-  - Categoria: Tesouro Direto
+<div style="display: flex; gap: 10px;">
+  <ul style="width: 300px">
+    <li>Grupo: <b>Investimentos</b></li>
+    <li>Categoria: <b>Ações</b></li>
+    <li>Categoria: <b>Poupança</b></li>
+    <li>Categoria: <b>Tesouro Direto</b></li>
+  </ul>
+  <table>
+    <tr>
+      <th>Grupo</th>
+      <th>Categoria</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Investimentos</td>
+      <td>Ações</td>
+    </tr>
+    <tr>
+      <td >Poupança</td>
+    </tr>
+    <tr>
+      <td>Tesouro Direto</td>
+    </tr>
+  </table>
+</div>
 
 Dessa forma, você pode entender com clareza:
 - Para onde o dinheiro está indo dentro dos gastos.
@@ -47,6 +124,8 @@ Dessa forma, você pode entender com clareza:
 - Quais tipos de investimentos estão recebendo mais aportes.
 
 ## 🔁 Transações Recorrentes
+
+<img src="./assets/recorrente-1.png" width="600px" />
 
 Gerencie transações automáticas, como despesas fixas ou receitas mensais, de maneira prática e flexível. O sistema de recorrência do FlyCash é projetado para oferecer controle total sobre suas transações, permitindo alterações, exclusões e expansões de forma personalizada.
 
@@ -104,6 +183,9 @@ Durante qualquer alteração em uma transação recorrente, o FlyCash exibe um r
 
 ## 📊 Visualização de Saldos
 
+<img src="./assets/saldo-2.png" width="600px" style="padding-bottom: 10px;" />
+<img src="./assets/saldo-1.png" width="350px" />
+
 A funcionalidade de **Visualização de Saldos** permite que você analise seus dados financeiros de forma dinâmica, realizando operações matemáticas entre os grupos, categorias ou subcategorias. Isso ajuda a responder perguntas específicas sobre suas finanças e a obter informações precisas que atendem às suas necessidades.
 
 ### **O que é possível fazer com os saldos?**
@@ -137,6 +219,8 @@ A funcionalidade de **Visualização de Saldos** permite que você analise seus 
 Com isso, você pode visualizar o saldo de forma personalizada e dinâmica!
 
 ## 🌐 Funcionalidade Offline
+
+<img src="./assets/offline.png" width="350px" />
 
 O FlyCash também oferece suporte ao uso offline, garantindo que você tenha acesso aos seus dados financeiros, mesmo sem conexão com a internet. Essa funcionalidade foi projetada para proporcionar flexibilidade e conveniência, permitindo que você continue acompanhando suas finanças em qualquer situação.
 

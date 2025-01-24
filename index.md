@@ -7,7 +7,7 @@ hero:
   text: "Documentação de uso da aplicação"
   tagline: Bem-vindo à documentação oficial do FlyCash! Aqui você encontra tudo o que precisa para dominar nosso aplicativo e gerenciar suas finanças com facilidade.
   image:
-    src: ./assets/logo.png
+    src: /logo.png
     alt: FlyCash
     width: 200px
   actions:
