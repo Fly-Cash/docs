@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -11,22 +10,24 @@ hero:
     alt: FlyCash
     width: 200px
   actions:
-    - theme: brand
+    - theme: alt
       text: Introdução
       link: /getting-started
-    - theme: alt
-      text: Funcionalidades
-      link: /features
+    - theme: brand
+      text: Experimente Grátis 💸
+      link: https://flyca.sh
 
 features:
-  - title: Grupos e Categorias
+  - icon: 🗂️
+    title: Grupos e Categorias
     details: Crie grupos e organize suas movimentações com categorias e subcategorias.
     link: /features#%F0%9F%93%82-organizacao-por-grupos-e-categorias
-  - title: Valor recorrente
+  - icon: 🔁
+    title: Valor recorrente
     details: Crie transações recorrentes de forma simples e gerencie seus saldos com facilidade.
     link: /features#%F0%9F%94%81-transacoes-recorrentes
-  - title: Modo offline
+  - icon: 📴
+    title: Modo offline
     details: Acesse seus dados e registre suas transações sem precisar se conectar à internet.
     link: /features#%F0%9F%8C%90-funcionalidade-offline
 ---
-

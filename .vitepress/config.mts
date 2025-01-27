@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'FlyCash Docs',
+  title: 'FlyCash | Docs',
   description: 'Documentação oficial do FlyCash, seu gerenciador financeiro.',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
