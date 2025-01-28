@@ -96,6 +96,8 @@ const questions = [
 
 # FAQ - FlyCash
 
+Não encontrou sua pergunta? Acesse nosso [discord](https://discord.gg/VuQBBNhYXK) ou [envie um email](mailto:support@flyca.sh) e tire sua dúvida.
+
 <div v-for="category in questions" :key="category.title" class="faq-category">
   <h2>{{ category.title }}</h2>
 

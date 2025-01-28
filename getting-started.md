@@ -84,7 +84,7 @@ O FlyCash oferece uma variedade de recursos para ajudar você a gerenciar suas f
 - **🌐 Funcionalidade Offline:**  
   Acesse e gerencie suas finanças mesmo sem conexão com a internet.
 
-[Explore todas as funcionalidades em detalhes](/features)
+[Explore todas as funcionalidades em detalhes](/features/)
 
 ## Dicas para Começar 🚀
 
