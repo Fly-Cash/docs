@@ -22,6 +22,10 @@ features:
     title: Grupos e Categorias
     details: Crie grupos e organize suas movimentações com categorias e subcategorias.
     link: /features#%F0%9F%93%82-organizacao-por-grupos-e-categorias
+  - icon: 🔔
+    title: Lembretes de Pagamento
+    details: Configure lembretes automáticos para manter suas finanças organizadas e evitar atrasos.
+    link: /features/transactions#lembretes-de-pagamento
   - icon: 🔁
     title: Valor recorrente
     details: Crie transações recorrentes de forma simples e gerencie seus saldos com facilidade.

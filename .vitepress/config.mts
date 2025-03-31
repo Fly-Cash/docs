@@ -25,6 +25,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Organização por Grupos e Categorias', link: '/features#%F0%9F%93%82-organizacao-por-grupos-e-categorias' },
+            { text: 'Transações', link: '/features#📅-transacoes' },
             { text: 'Transações Recorrentes', link: '/features#%F0%9F%94%81-transacoes-recorrentes' },
             { text: 'Visualização de Saldos', link: '/features#%F0%9F%93%8A-visualizacao-de-saldos' },
             { text: 'Funcionalidade Offline', link: '/features#%F0%9F%8C%90-funcionalidade-offline' },
