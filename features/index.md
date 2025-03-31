@@ -25,6 +25,29 @@ Grupos e categorias são a base da organização no FlyCash. Eles permitem que v
 <!-- [Assista ao vídeo tutorial](#)   -->
 [Leia o guia completo sobre Grupos e Categorias](/features/groups-and-categories)
 
+## 📅 Transações
+
+<img src="../assets/transacao.png" width="600px" />
+
+### **O que são Transações?**
+
+Transações são movimentações financeiras que você faz com seus gastos e receitas.
+
+#### **Como configurar:**
+1. Selecione um mês de referência em alguma categoria.
+2. Clique no botão de **Adicionar Transação**.
+3. Preencha os campos de **Data**, **Valor** e opcionalmente **Descrição**.
+4. Clique no botão **Salvar**.
+
+Em cada transação você encontrará um botão de **Configuração** que permite editar o campo **Status da Transação** e **Recebimento de lembrete para pagamento**.
+
+- **Status da Transação**: Indica se a transação está **paga** ou **pendente/atrasada**.
+- **Recebimento de lembrete para pagamento**: Indica se o lembrete de pagamento deve ser enviado para o email do destinatário.
+  - ℹ️ Essa opção serve apenas para informar a preferência do envio do lembrebe de maneira individual. Para habilitar/desabilitar o envio de lembretes de pagamento em geral, vá em [**Meu Perfil**](https://flyca.sh/profile) > **Configurações** > **Recebimento de E-mails**.
+
+<!-- [Assista ao vídeo tutorial](#)   -->
+[Leia o guia completo sobre Transações](/features/transactions)
+
 ## 🔁 Transações Recorrentes
 
 <img src="../assets/recorrente-1.png" width="600px" />
@@ -100,6 +123,7 @@ Precisa de uma ajuda visual? Confira nossa playlist de vídeos tutoriais para ap
 Prefere ler? Nossos guias escritos cobrem todas as funcionalidades do FlyCash em detalhes, com exemplos práticos e dicas úteis.
 
 - [Guia Completo de Grupos e Categorias](/features/groups-and-categories)
+- [Tudo sobre Transações](/features/transactions)
 - [Tudo sobre Transações Recorrentes](/features/transactions-recurrences)
 - [Dominando a Visualização de Saldos](/features/balances)
 - [Funcionalidade Offline: Tudo o que você precisa saber](/features/offline)
@@ -107,6 +131,7 @@ Prefere ler? Nossos guias escritos cobrem todas as funcionalidades do FlyCash em
 ## 🚀 Dicas Rápidas
 
 - Use **categorias específicas** para entender melhor seus gastos.
+- <u>Desabilite</u> o **lembrete de pagamento** em receitas que não estão sob seu controle para evitar alarmes falsos de atrasos. Use apenas o status para acompanhar o progresso.
 - Configure **transações recorrentes** para contas fixas e nunca mais se esqueça de pagá-las.
 - Crie **saldos personalizados** para acompanhar metas financeiras, como economias ou investimentos.
 - No modo offline, **planeje suas finanças** mesmo sem internet e sincronize depois.

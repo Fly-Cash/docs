@@ -21,6 +21,8 @@ Gerencie transações automáticas, como despesas fixas ou receitas mensais, de 
 
 ### **Gerenciamento de Recorrências**
 
+<img src="../assets/transacao-recorrente-configuracao.png" width="600px" />
+
 #### **1. Alteração de Transações Recorrentes**
 Ao modificar uma transação recorrente, você pode escolher como a alteração será aplicada:
 - **Todos os registros:** Propaga a alteração para todos os registros da recorrência.

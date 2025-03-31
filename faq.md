@@ -91,6 +91,23 @@ const questions = [
       },
     ],
   },
+  {
+    title: 'Erros e Problemas',
+    questions: [
+      {
+        title: 'O que acontece se eu tenho um erro ou problema?',
+        description: [
+          'Se você encontrar um erro ou problema, por favor, envie um email para <a href="mailto:support@flyca.sh">support@flyca.sh</a> com detalhes sobre o problema e o passo-a-passo para reproduzir o erro. Ou também pode abrir um ticket no <a href="https://discord.gg/VuQBBNhYXK">Discord</a>',
+        ],
+      },
+      {
+        title: 'Não consigo visualizar minhas transações',
+        description: [
+          'Se você não conseguir visualizar suas transações isso pode ser devido a uma versão antiga do FlyCash. Atualize para a versão mais recente clicando em "Recarregar" no popup que aparecer na sua tela ou pressionando <kbd>Ctrl<kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> ou <kbd>Shift</kbd> + <kbd>F5</kbd>.',
+        ],
+      }
+    ],
+  }
 ]
 </script>
 
@@ -103,7 +120,7 @@ Não encontrou sua pergunta? Acesse nosso [discord](https://discord.gg/VuQBBNhYX
 
   <details class="details custom-block" v-for="question in category.questions" :key="question.title">
     <summary>{{ question.title }}</summary>
-    <p v-for="(desc, index) in question.description" :key="index">{{ desc }}</p>
+    <p v-for="(desc, index) in question.description" :key="index" v-html="desc"></p>
   </details>
 </div>
 
