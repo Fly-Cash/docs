@@ -10,13 +10,13 @@ const questions = [
       {
         title: 'O que é o FlyCash?',
         description: [
-          'O FlyCash é uma ferramenta financeira que ajuda você a gerenciar seus gastos. Ele oferece recursos avançados, como recorrências personalizáveis, controle de orçamento por categorias e grupos, e integração com diferentes planos para atender às suas necessidades.',
+          'O FlyCash é uma ferramenta financeira que ajuda você a gerenciar seus gastos. Ele oferece recursos como recorrências personalizáveis, controle de orçamento por categorias e grupos, importação de faturas (PDF/OFX) e análise de fluxo de caixa.',
         ],
       },
       {
         title: 'O FlyCash é gratuito?',
         description: [
-          'Sim! O FlyCash oferece um plano gratuito com funcionalidades limitadas. Para acessar recursos ilimitados, você pode assinar o plano "Equilíbrio Total".',
+          'Sim! O FlyCash oferece um plano gratuito (Controle Inicial) com funcionalidades limitadas: até 10 categorias, 3 saldos, 100 transações por mês e 1 importação de fatura por mês. Para acesso ilimitado, há os planos Essencial e Equilíbrio Total.',
         ],
       },
       {
@@ -28,12 +28,47 @@ const questions = [
     ],
   },
   {
+    title: 'Importação de Faturas',
+    questions: [
+      {
+        title: 'Quais formatos de fatura posso importar?',
+        description: [
+          'Você pode importar arquivos de fatura nos formatos <b>PDF</b> e <b>OFX</b>. Baixe o arquivo no app do seu banco e anexe no FlyCash.',
+        ],
+      },
+      {
+        title: 'O que acontece com as transações importadas?',
+        description: [
+          'As transações entram automaticamente com data, descrição e valor, com categorias sugeridas. O sistema também aponta possíveis duplicatas e reconhece parcelas para projetar nas próximas faturas.',
+        ],
+      },
+      {
+        title: 'Como o FlyCash detecta duplicatas?',
+        description: [
+          'Ao importar, o FlyCash compara descrição, valor, data e tipo com suas transações existentes. As prováveis duplicatas vêm desmarcadas para você revisar. Você também pode buscar manualmente uma possível duplicata e associá-la antes de importar.',
+        ],
+      },
+      {
+        title: 'Qual o limite de importações por mês?',
+        description: [
+          'No plano gratuito (Controle Inicial), o limite é de 1 importação de fatura por mês. Nos planos Essencial e Equilíbrio Total, a importação é ilimitada.',
+        ],
+      },
+    ],
+  },
+  {
     title: 'Gerenciamento de Transações',
     questions: [
       {
+        title: 'Como registro um gasto do dia a dia?',
+        description: [
+          'Selecione o mês de referência em uma categoria, clique em "Adicionar Transação", preencha data, valor e opcionalmente descrição, e salve. É rápido e pode ser feito direto do celular ou computador.',
+        ],
+      },
+      {
         title: 'O que acontece se eu marcar uma transação como recorrente?',
         description: [
-          'Ao configurar uma transação como recorrente, você pode definir um período e uma frequência (mensal, bimestral, trimestral, etc.).',
+          'Ao configurar uma transação como recorrente, você pode definir um período e uma frequência (mensal, etc.). O FlyCash gera as transações futuras automaticamente.',
           'Se precisar editar ou deletar uma recorrência, você terá opções para aplicar as mudanças a todas as transações ou apenas às próximas.',
         ],
       },
@@ -44,31 +79,32 @@ const questions = [
           'Sim, você pode alterar apenas uma transação individualmente, sem impactar as demais da série.',
         ],
       },
-      {
-        title: 'Como funciona a frequência de recorrência?',
-        description: [
-          'A frequência define o intervalo entre cada ocorrência da transação. Por exemplo, uma frequência de 2 meses cria uma nova transação a cada dois meses.',
-        ],
-      },
     ],
   },
   {
     title: 'Planos e Limitações',
     questions: [
       {
+        title: 'Quais são os limites do plano gratuito?',
+        description: [
+          'No plano Controle Inicial, você pode criar até:',
+          '10 categorias',
+          '3 saldos',
+          '100 transações por mês',
+          '1 importação de fatura por mês',
+        ],
+      },
+      {
+        title: 'O que acontece se eu atingir o limite de transações do mês?',
+        description: [
+          'Ao atingir o limite mensal de transações do plano gratuito (100), novas criações são bloqueadas até o reset do mês seguinte. O limite é por mês, não acumulativo.',
+        ],
+      },
+      {
         title:
           'O que acontece com minhas informações ao cancelar o plano pago?',
         description: [
           'Ao voltar para o plano gratuito, você poderá selecionar quais categorias, grupos e saldos manter ativos, respeitando os limites do plano gratuito. Os registros excedentes ficarão disponíveis apenas para leitura.',
-        ],
-      },
-      {
-        title: 'Quais são os limites do plano gratuito?',
-        description: [
-          'No plano gratuito, você pode criar até:',
-          '3 grupos',
-          '10 categorias por grupo',
-          '3 saldos',
         ],
       },
       {
@@ -81,12 +117,18 @@ const questions = [
     ],
   },
   {
-    title: 'Uso e Personalização',
+    title: 'Fluxo de Caixa',
     questions: [
       {
-        title: 'Como visualizar minhas transações?',
+        title: 'O que é o gráfico mensal do Fluxo de Caixa?',
         description: [
-          'O FlyCash apresenta suas transações em um layout estilo Excel, com meses organizados lado a lado. Você pode clicar no mês para visualizar detalhes em um modal.',
+          'É um gráfico que mostra as entradas e saídas de cada mês do ano, com barras verdes (receitas) e vermelhas (despesas), para você acompanhar a evolução do seu fluxo financeiro.',
+        ],
+      },
+      {
+        title: 'O que está incluso na análise por categoria?',
+        description: [
+          'A análise por categoria mostra os totais e as principais transações por categoria. No plano Equilíbrio Total, há também comparativo e variação entre períodos, além de insights.',
         ],
       },
     ],
@@ -103,7 +145,7 @@ const questions = [
       {
         title: 'Não consigo visualizar minhas transações',
         description: [
-          'Se você não conseguir visualizar suas transações isso pode ser devido a uma versão antiga do FlyCash. Atualize para a versão mais recente clicando em "Recarregar" no popup que aparecer na sua tela ou pressionando <kbd>Ctrl<kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> ou <kbd>Shift</kbd> + <kbd>F5</kbd>.',
+          'Se você não conseguir visualizar suas transações isso pode ser devido a uma versão antiga do FlyCash. Atualize para a versão mais recente clicando em "Recarregar" no popup que aparecer na sua tela ou pressionando <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> ou <kbd>Shift</kbd> + <kbd>F5</kbd>.',
         ],
       }
     ],
@@ -123,4 +165,3 @@ Não encontrou sua pergunta? Acesse nosso [discord](https://discord.gg/VuQBBNhYX
     <p v-for="(desc, index) in question.description" :key="index" v-html="desc"></p>
   </details>
 </div>
-

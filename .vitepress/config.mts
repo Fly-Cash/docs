@@ -19,17 +19,18 @@ export default defineConfig({
     sidebar: {
       '/': [
         { text: 'Introdução', link: '/getting-started' },
-        { 
+        {
           text: 'Funcionalidades',
           link: '/features',
-          collapsed: true,
+          collapsed: false,
           items: [
-            { text: 'Organização por Grupos e Categorias', link: '/features#%F0%9F%93%82-organizacao-por-grupos-e-categorias' },
-            { text: 'Transações', link: '/features#📅-transacoes' },
-            { text: 'Transações Recorrentes', link: '/features#%F0%9F%94%81-transacoes-recorrentes' },
-            { text: 'Visualização de Saldos', link: '/features#%F0%9F%93%8A-visualizacao-de-saldos' },
-            { text: 'Funcionalidade Offline', link: '/features#%F0%9F%8C%90-funcionalidade-offline' },
-          ]
+            { text: 'Organização por Grupos e Categorias', link: '/features/groups-and-categories' },
+            { text: 'Transações', link: '/features/transactions' },
+            { text: 'Transações Recorrentes', link: '/features/transactions-recurrences' },
+            { text: 'Visualização de Saldos', link: '/features/balances' },
+            { text: 'Importação de Faturas', link: '/features/import-transactions' },
+            { text: 'Fluxo de Caixa', link: '/features/cashflow' },
+          ],
         },
         { text: 'Planos e Preços', link: '/plans-and-pricing' },
         { text: 'FAQ', link: '/faq' },
@@ -43,8 +44,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Feito com ❤️ pela equipe FlyCash.',
-      copyright: '© 2025 FlyCash. Todos os direitos reservados.',
+      copyright: '© 2026 FlyCash. Todos os direitos reservados.',
     },
   },
 })
-

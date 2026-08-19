@@ -4,61 +4,75 @@ title: Planos e Preços
 
 # **Planos e Preços 💳**
 
-O FlyCash oferece planos acessíveis para atender às necessidades de quem deseja controlar suas finanças pessoais de forma eficiente. Confira os detalhes de cada plano e escolha o que melhor se adapta a você.
+O FlyCash oferece planos para atender às necessidades de quem deseja controlar suas finanças pessoais de forma eficiente. Confira os detalhes de cada plano e escolha o que melhor se adapta a você.
 
 ---
 
-### **Plano Gratuito (Controle Inicial) 👛**  
+### **Controle Inicial (Grátis) 👛**
+
 O plano gratuito é ideal para quem quer começar a organizar suas finanças sem compromisso. Ele oferece recursos básicos para gerenciar seu dinheiro de forma simples e prática.
 
 #### **Recursos Incluídos:**
-- **Controle de Transações:**  
-  Registre e visualize suas transações financeiras (gastos, receitas, investimentos).  
+- **Registro manual de transações:**  
+  Anote gastos e receitas do dia a dia.
 
 - **Grupos e Categorias:**  
-  Organize suas transações utilizando grupos e categorias (exemplo: Despesas, Receitas, Investimentos).  
+  Organize suas transações utilizando grupos e categorias (exemplo: Despesas, Receitas, Investimentos).
 
 - **Visualização de Saldos:**  
-  Consulte os saldos de cada grupo e categoria com base nas transações registradas.  
+  Consulte os saldos de cada grupo e categoria com base nas transações registradas.
 
-- **Modo Offline (Somente Leitura):**  
-  A funcionalidade offline estará disponível, mas **somente para leitura das informações previamente cacheadas no dispositivo**. Ou seja, você pode acessar e visualizar seus dados enquanto estiver offline, mas **não poderá adicionar, editar ou excluir informações nesse modo**.
+- **Parcelas e recorrências:**  
+  Crie transações recorrentes e acompanhe parcelas (contam no limite mensal).
 
 #### **Limitações:**
-- **Grupos e Categorias:**  
-  - Até **2 Grupos** (Exemplo: Gastos e Receitas).  
-  - Até **10 Categorias** por Grupo (Exemplo: Gastos → Casa → Luz, Água, Internet).  
-
-- **Saldos Personalizados:**  
-  - Limite de **3 saldos personalizados**.  
+- Até **10 categorias**.
+- Até **3 saldos personalizados**.
+- Até **100 transações por mês**.
+- Até **1 importação de fatura por mês**.
 
 #### **Ideal Para:**  
-- Usuários que desejam experimentar a ferramenta sem compromisso e precisam de funcionalidades básicas de controle financeiro.  
-- Pessoas que precisam acessar e visualizar suas finanças no modo offline sem a necessidade de edições.
+- Usuários que desejam experimentar a ferramenta sem compromisso e precisam de funcionalidades básicas de controle financeiro.
 
 ---
 
-### **Plano Premium (Equilíbrio Total) 💎**  
-O plano premium oferece uma gama completa de recursos para usuários que buscam mais flexibilidade e controle sobre suas finanças.
+### **Essencial (R$ 6,90/mês) 💡**
+
+O plano Essencial é para quem quer organizar as finanças **sem limites**, com importação de faturas e recorrências à vontade.
 
 #### **Recursos Incluídos:**
-- **Tudo do Plano Gratuito:**  
-  Inclui todos os recursos disponíveis no plano gratuito sem restrições.
+- **Tudo do Plano Grátis, sem limites:**
+  - Categorias, saldos e transações **ilimitados**.
+  - **Importação de faturas** (PDF/OFX) ilimitada.
+  - Parcelas e recorrências ilimitadas.
 
-- **Modo Offline (Completo):**  
-  Acesse seus dados offline e **faça alterações**, como adicionar novas transações e editar as existentes, mesmo sem conexão à internet.  
+- **Análise por categoria:**  
+  Totais e principais transações por categoria.
 
-<!--- **Relatórios Avançados:**  
-  Gere relatórios detalhados com gráficos e filtros personalizados para uma análise mais profunda das suas finanças.  
--->
-
-#### **Limitações:**  
-- **Sem Limites de Uso:**  
-  Não há restrições no uso dos recursos.  
+- **Lembretes por e-mail.**
 
 #### **Ideal Para:**  
-- Usuários que desejam um controle financeiro completo e flexível.  
-- Pessoas com múltiplos fluxos financeiros que exigem uma análise mais aprofundada.
+- Quem usa o FlyCash com frequência e quer registrar/importar sem se preocupar com limites.
+
+---
+
+### **Equilíbrio Total (R$ 14,90/mês) 💎**
+
+O plano Equilíbrio Total oferece a gama completa de recursos para usuários que buscam controle e análise avançada.
+
+#### **Recursos Incluídos:**
+- **Tudo do Plano Essencial, sem limites.**
+
+- **Relatórios avançados:**  
+  Análise por categoria com comparativo e variação entre períodos.
+
+- **Exportação XLSX:**  
+  Exporte transações e análises para Excel.
+
+- **Suporte prioritário.**
+
+#### **Ideal Para:**  
+- Usuários que desejam um controle financeiro completo e análises aprofundadas.
 
 ---
 
@@ -67,6 +81,7 @@ O plano premium oferece uma gama completa de recursos para usuários que buscam 
 | Plano              | Valor Mensal (R$) |
 |--------------------|-------------------|
 | **Controle Inicial**       | R$ 0,00           |
+| **Essencial**              | R$ 6,90           |
 | **Equilíbrio Total**       | R$ 14,90          |
 
 *Todos os valores estão sujeitos a alterações. Consulte sempre a página oficial para os preços mais atualizados.*
@@ -75,19 +90,24 @@ O plano premium oferece uma gama completa de recursos para usuários que buscam 
 
 ### **Comparação de Planos**
 
-| Recurso / Plano              | Gratuito      | Premium      |
-|------------------------------|---------------|--------------|
-| Controle de Transações       | ✔️ | ✔️           |
-| Grupos e Categorias          | ✔️ (2 Grupos, 10 Categorias por Grupo) | ✔️ (Ilimitado) |
-| Saldos Personalizados        | ✔️ (3 Saldos) | ✔️ (Ilimitado) |
-| Funcionalidade Offline       | Somente Leitura | Completo     |
-| Relatórios Avançados         | 🔒            | ✔️           |
+| Recurso / Plano              | Controle Inicial | Essencial | Equilíbrio Total |
+|------------------------------|------------------|-----------|------------------|
+| Registro manual de transações | ✔️ (100/mês)     | ✔️ (ilimitado) | ✔️ (ilimitado) |
+| Grupos e Categorias          | ✔️ (10 categorias) | ✔️ (ilimitado) | ✔️ (ilimitado) |
+| Saldos Personalizados        | ✔️ (3)           | ✔️ (ilimitado) | ✔️ (ilimitado) |
+| Parcelas e Recorrências      | ✔️ (contam no limite) | ✔️ (ilimitado) | ✔️ (ilimitado) |
+| Importação de Faturas (PDF/OFX) | ✔️ (1/mês)   | ✔️ (ilimitado) | ✔️ (ilimitado) |
+| Análise por Categoria        | 🔒               | ✔️             | ✔️ |
+| Relatórios Avançados         | 🔒               | 🔒             | ✔️ |
+| Exportação XLSX              | 🔒               | 🔒             | ✔️ |
+| Suporte Prioritário          | 🔒               | 🔒             | ✔️ |
 
 ---
 
-### **Como Escolher o Plano Certo para Você?**  
-- Se você está começando agora e quer experimentar o FlyCash sem compromisso, o **Plano Gratuito** é uma ótima opção.  
-- Se você já está mais familiarizado com o gerenciamento financeiro e precisa de funcionalidades avançadas, o **Plano Premium** oferece tudo o que você precisa para ter mais controle sobre suas finanças.  
+### **Como Escolher o Plano Certo para Você?**
+- **Controle Inicial:** está começando e quer experimentar sem compromisso.
+- **Essencial:** usa com frequência e quer registrar/importar sem limites.
+- **Equilíbrio Total:** precisa de análises avançadas, exportação e suporte prioritário.
 
 ---
 

@@ -22,16 +22,15 @@ Grupos e categorias são a base da organização no FlyCash. Eles permitem que v
 - Visualize claramente para onde seu dinheiro está indo.
 - Identifique áreas onde você pode economizar.
 
-<!-- [Assista ao vídeo tutorial](#)   -->
 [Leia o guia completo sobre Grupos e Categorias](/features/groups-and-categories)
 
-## 📅 Transações
+## ✍️ Transações (Registro Manual)
 
 <img src="../assets/transacao.png" width="600px" />
 
 ### **O que são Transações?**
 
-Transações são movimentações financeiras que você faz com seus gastos e receitas.
+Transações são movimentações financeiras que você faz com seus gastos e receitas. Você pode registrá-las **manualmente** a qualquer momento.
 
 #### **Como configurar:**
 1. Selecione um mês de referência em alguma categoria.
@@ -43,10 +42,20 @@ Em cada transação você encontrará um botão de **Configuração** que permit
 
 - **Status da Transação**: Indica se a transação está **paga** ou **pendente/atrasada**.
 - **Recebimento de lembrete para pagamento**: Indica se o lembrete de pagamento deve ser enviado para o email do destinatário.
-  - ℹ️ Essa opção serve apenas para informar a preferência do envio do lembrebe de maneira individual. Para habilitar/desabilitar o envio de lembretes de pagamento em geral, vá em [**Meu Perfil**](https://flyca.sh/profile) > **Configurações** > **Recebimento de E-mails**.
+  - ℹ️ Essa opção serve apenas para informar a preferência do envio do lembrete de maneira individual. Para habilitar/desabilitar o envio de lembretes de pagamento em geral, vá em [**Meu Perfil**](https://flyca.sh/profile) > **Configurações** > **Recebimento de E-mails**.
 
-<!-- [Assista ao vídeo tutorial](#)   -->
 [Leia o guia completo sobre Transações](/features/transactions)
+
+## 📥 Importação de Faturas (PDF/OFX)
+
+Importe a fatura do seu cartão de crédito e ganhe tempo:
+
+- **Formatos:** PDF e OFX.
+- **Categorização automática:** as transações entram com categorias sugeridas.
+- **Detecção de duplicatas:** o sistema aponta compras que já existem no seu controle.
+- **Parcelas:** compras parceladas são reconhecidas (ex: "3/10") e projetadas nas próximas faturas.
+
+[Leia o guia completo de Importação](/features/import-transactions)
 
 ## 🔁 Transações Recorrentes
 
@@ -64,7 +73,6 @@ Transações recorrentes são movimentações que se repetem em intervalos regul
 - **Editar:** Altere uma transação e escolha se a mudança afeta todas as recorrências ou apenas algumas.
 - **Excluir:** Remova uma única transação ou toda a série de recorrências.
 
-<!-- [Assista ao vídeo tutorial](#)   -->
 [Leia o guia completo sobre Transações Recorrentes](/features/transactions-recurrences)
 
 ## 📊 Visualização de Saldos
@@ -84,39 +92,18 @@ Saldos permitem que você faça cálculos personalizados entre grupos, categoria
 - Entenda melhor sua saúde financeira.
 - Tome decisões informadas com base em dados claros.
 
-<!-- [Assista ao vídeo tutorial](#)   -->
 [Leia o guia completo sobre Visualização de Saldos](/features/balances)
 
-## 🌐 Funcionalidade Offline
+## 📈 Fluxo de Caixa
 
-<img src="../assets/offline.png" width="350px" />
+Acompanhe sua saúde financeira em um só lugar:
 
-### **O que é o Modo Offline?**
-O FlyCash funciona mesmo sem conexão com a internet, permitindo que você acesse e gerencie suas finanças em qualquer lugar.
+- **Gráfico mensal:** entradas vs. saídas por mês no ano.
+- **Análise por categoria:** totais e principais transações (Essencial+) e relatórios avançados com comparativo e variação (Equilíbrio Total).
+- **Projeções:** saldo projetado com base na sua média mensal.
+- **Exportação XLSX:** exporte suas transações e análises para Excel (Equilíbrio Total).
 
-#### **Como usar:**
-1. Faça login **pelo menos uma vez** com internet para sincronizar seus dados.
-2. No plano gratuito, você pode **apenas visualizar** os dados offline.
-3. No plano premium, você pode **adicionar e editar** transações offline.
-
-#### **Benefícios:**
-- Acesse suas finanças em viagens ou áreas sem conexão.
-- Nunca perca o controle, mesmo quando estiver desconectado.
-
-<!-- [Assista ao vídeo tutorial](#)   -->
-[Leia o guia completo sobre Funcionalidade Offline](/features/offline)
-
-<!--
-## 🎥 Vídeos Tutoriais
-
-Precisa de uma ajuda visual? Confira nossa playlist de vídeos tutoriais para aprender a usar o FlyCash de forma prática e rápida.
-
-- [Como criar Grupos e Categorias](#)
-- [Configurando Transações Recorrentes](#)
-- [Usando Saldos Personalizados](#)
-- [Funcionalidade Offline: Como funciona?](#)
-
--->
+[Leia o guia completo do Fluxo de Caixa](/features/cashflow)
 
 ## 📚 Guias Detalhados
 
@@ -126,22 +113,23 @@ Prefere ler? Nossos guias escritos cobrem todas as funcionalidades do FlyCash em
 - [Tudo sobre Transações](/features/transactions)
 - [Tudo sobre Transações Recorrentes](/features/transactions-recurrences)
 - [Dominando a Visualização de Saldos](/features/balances)
-- [Funcionalidade Offline: Tudo o que você precisa saber](/features/offline)
+- [Importação de Faturas (PDF/OFX)](/features/import-transactions)
+- [Fluxo de Caixa](/features/cashflow)
 
 ## 🚀 Dicas Rápidas
 
 - Use **categorias específicas** para entender melhor seus gastos.
 - <u>Desabilite</u> o **lembrete de pagamento** em receitas que não estão sob seu controle para evitar alarmes falsos de atrasos. Use apenas o status para acompanhar o progresso.
 - Configure **transações recorrentes** para contas fixas e nunca mais se esqueça de pagá-las.
+- **Importe a fatura** do cartão para economizar horas de digitação manual.
 - Crie **saldos personalizados** para acompanhar metas financeiras, como economias ou investimentos.
-- No modo offline, **planeje suas finanças** mesmo sem internet e sincronize depois.
 
 ---
 
 ### **Por que Escolher o FlyCash?**
 - **Simplicidade:** Interface intuitiva e fácil de usar.
-- **Flexibilidade:** Organize suas finanças do seu jeito.
-- **Controle Total:** Acesse seus dados em qualquer lugar, online ou offline.
+- **Flexibilidade:** Registre gastos na hora ou importe tudo de uma vez.
+- **Controle Total:** Entenda para onde vai seu dinheiro com relatórios e gráficos.
 
 [Experimente Grátis 💸](https://flyca.sh)
 
